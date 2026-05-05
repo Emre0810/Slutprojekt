@@ -2,7 +2,7 @@
 
 ## Beskrivning
 
-Detta är en hemsida om Matematik 1c. Den innehåller förklaringar av förenkling och funktioner samt ett test där användaren kan träna sina kunskaper.
+Detta är en hemsida om Matematik 1c. Den innehåller förklaringar och funktioner och ett test där användaren kan träna sina kunskaper.
 
 ## Funktioner
 
