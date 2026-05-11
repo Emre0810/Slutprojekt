@@ -1,19 +1,63 @@
-
-
-
-
 body {
-    margin: 0;
-    padding-top: 70px; /* plats för navbar */
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+  /* Hela sidan */
+  margin: 0; /* Ingen kant runt sidan */
+  padding-top: 70px; /* Plats för menyn högst upp */
+  font-family: Arial, sans-serif; /* Textstil */
+  background: #f4f4f4; /* Ljusgrå bakgrund */
+  text-align: center; /* Text i mitten */
 }
 
+/* MENY */
+.navbar {
+  /* Menyraden */
+  position: fixed; /* Menyn stannar högst upp */
+  top: 0; /* Längst upp */
+  width: 100%; /* Full bredd */
+  padding: 15px 20px; /* Mellanrum inuti */
+  background: #333;
+  display: flex;
+  justify-content: space-between; /* Mellanrum mellan saker */
+  align-items: center; /* Mitten på höjden */
+  box-sizing: border-box; /* Padding räknas med *
+}
 
+.nav-logo,
+.nav-links a {
+  color: #fff; /* Vit text */
+  text-decoration: none; /* Ingen linje under text */
+}
 
+.nav-logo {
+  font-size: 22px;
+  font-weight: bold; /* Fet text */
+}
 
+.nav-links {
+  /* Länkarna */
+  display: flex; /* På rad */
+  gap: 20px; /* Mellanrum mellan länkar */
+}
 
+/* INNEHÅLL */
+.container {
+  /* Huvuddel */
+  padding: 20px; /* Mellanrum */
+}
 
+h1 {
+  /* Stor rubrik */
+  font-size: 60px;
+}
 
+h2 {
+  /* Mindre rubrik */
+  margin-top: 40px; /* Avstånd ovanför */
+}
 
+.intro {
+  /* Introtext */
+  max-width: 900px; /* Max bredd */
+  margin: auto; /* I mitten */
+  font-size: 18px;
+  line-height: 1.7; /* Avstånd mellan rader */
+}
